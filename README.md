@@ -63,7 +63,7 @@ Make sure that all Common HTTP features are checked. To make sure IIS is install
 8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
 </p>
 <br />
-  !! ATTENTION !!
+Attention:
 If this appears, choose to “Keep” the file:
   
 <p>
