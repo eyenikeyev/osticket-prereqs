@@ -122,7 +122,11 @@ We will want to enable three extensions from here
   Now we will add new permissions.
   
   - Click Add
-  
+  - Select a Principal
+  - Type "Everyone in the box"
+  - Make sure Full Control and the other boxes are checked
+  - Click Apply and Ok
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
