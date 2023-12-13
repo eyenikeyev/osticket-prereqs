@@ -88,13 +88,13 @@ Make the new root password: Password1. Execute the process on the next page.
 <p>
 12.) We will now want to register PHP from within IIS.
 <p> 
-* Click on PHP Manager.
+- Click on PHP Manager.
 <p>
-* Register New PHP Version
+- Register New PHP Version
 <p> 
-* You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
+- You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
 <p>
-* Restart the IIS Server
+- Restart the IIS Server
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
