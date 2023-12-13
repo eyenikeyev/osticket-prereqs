@@ -42,14 +42,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 4.) You will want to install / enable IIS in Windows with CGI and Common HTTP Features
 
-5.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Go through the install wizard and complete the install.
-
-6.) Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
-
-7.) Create a folder in the C drive called PHP.
-
-8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
-
 </p>
 <br />
 
