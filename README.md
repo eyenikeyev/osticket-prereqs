@@ -100,6 +100,16 @@ Some extensions are not enabled on the osTicket browser
 <p>
 <img src="https://imgur.com/eJIsGTn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
+To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double click PHP manager -Click "Enable or disable an extension"
+<p>
+We will want to enable three extensions from here
+
+  1.) php_imap.dll
+ 
+  2.) php_intl.dll
+  
+  3.) php_opcache.dll
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
