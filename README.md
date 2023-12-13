@@ -39,6 +39,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 2.) Once you have created your virtual machine you will want to connect to it by using the public ip address the vm is setup with. You will connect using the remote desktop connection app.
 
 3.) Once you have connected to your virtual machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
+
+4.) You will want to install / enable IIS in Windows with CGI and Common HTTP Features
+
+World Wide Web Services -> Application Development Features -> [X] CGI [X] Common HTTP Features
 </p>
 <br />
 
