@@ -110,6 +110,19 @@ We will want to enable three extensions from here
   
   3.) php_opcache.dll
 <p>
+15.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder.
+  Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+  
+  We are going to rename the ost-sampleconfig.php to ost-config.php
+  
+  Now that we have renamed the files, right click on the file and go to properties.
+  From there click security, click on advance, and disable the inheritance.
+  We will select Remove all inherited permissions from this object.
+  
+  Now we will add new permissions.
+  
+  - Click Add
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
