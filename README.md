@@ -51,7 +51,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/pbPeHb1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Make sure that all common HTTP features are checked. To make sure the IIS is installed / enabled go to a browser of your choice and search for 127.0.0.1. If it dispalys IIS then it was done correctly.
+5.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Go through the install wizard and complete the install.
+
+6.) Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+7.) Create a folder in the C drive called PHP.
+
+8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
 </p>
 <br />
 
