@@ -48,6 +48,8 @@ World Wide Web Services -> Application Development Features -> [X] CGI [X] Commo
 
 <p>
 <img src="https://imgur.com/LQjw9le.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 <img src="https://imgur.com/pbPeHb1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
