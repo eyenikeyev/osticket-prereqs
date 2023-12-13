@@ -96,6 +96,10 @@ Reload IIS again
 <p>
 14.) On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”
 <p>
+Some extensions are not enabled on the osTicket browser
+<p>
+<img src="https://imgur.com/eJIsGTn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
