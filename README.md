@@ -77,7 +77,7 @@ If this appears, choose to “Keep” the file:
 
 10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
 
-Make the new root password: Password1 
+Make the new root password: Password1. Execute the process on the next page.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
