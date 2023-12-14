@@ -178,6 +178,15 @@ Once that is done we will continue to setup osTicket in the browser. Click Conti
 </p>
 <p>
   
+  </ul>
+</p>
+
+<br />
+
+<h3>Clean Up</h3>
+
+<p>
+  <ul>
   The last step is to do some clean up. We will want to delete the setup folder in our system. 
   -Delete: C:\inetpub\wwwroot\osTicket\setup
   Only delete the setup folder and nothing else.
