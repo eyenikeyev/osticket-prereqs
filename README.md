@@ -99,7 +99,16 @@ The program should look like this.
 - Restart the IIS Server
 </p>
 <p>
-2.) Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
+</ul>
+</p>
+
+<br />
+
+<h3>Installing osTicket</h3>
+
+<p>
+  <ul>
+Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
 <p>
 Reload IIS again
 <p>
