@@ -61,13 +61,13 @@ Make sure that all Common HTTP features are checked. To make sure IIS is install
 <p>
   <ul>
 
-5.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Go through the install wizard and complete the install.
+1.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Go through the install wizard and complete the install.
 
-6.) Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+2.) Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
-7.) Create a folder in the C drive called PHP.
+3.) Create a folder in the C drive called PHP.
 
-8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
+4.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
 </p>
 Attention: If this appears, choose to “Keep” the file:
 </p>
@@ -77,31 +77,31 @@ Attention: If this appears, choose to “Keep” the file:
 
 <img src="https://imgur.com/YwBhqo0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
-9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
+5.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
 
-10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
+6.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
 
 Make the new root password: Password1. Execute the process on the next page.
 <p>
-11.) Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator.
+Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator.
   The program should look like this.
   
 <p>
 <img src="https://imgur.com/rgdZwmM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-12.) We will now want to register PHP from within IIS.
+8.) We will now want to register PHP from within IIS.
   
 - Click on PHP Manager
 - Register New PHP Version
 - You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
 - Restart the IIS Server
 <p>
-13.) Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
+9.) Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
 <p>
 Reload IIS again
 <p>
-14.) On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”
+10.) On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”
 <p>
 Some extensions are not enabled on the osTicket browser
 <p>
