@@ -105,6 +105,7 @@ The program should look like this.
 - Register New PHP Version
 - You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
 - Restart the IIS Server
+</p>
 <p>
 2.) Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
 <p>
