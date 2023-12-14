@@ -83,15 +83,7 @@ Attention: If this appears, choose to “Keep” the file:
 
 Make the new root password: Password1. Execute the process on the next page.
 <p>
- </ul>
-</p>
 
-<br />
-
-<h3>Setting up IIS and PHP</h3>
-
-<p>
-  <ul>
 Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator.
 The program should look like this.
   
