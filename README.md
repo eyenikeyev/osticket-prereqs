@@ -91,7 +91,7 @@ The program should look like this.
 <img src="https://imgur.com/rgdZwmM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-1.) We will now want to register PHP from within IIS.
+7.) We will now want to register PHP from within IIS.
   
 - Click on PHP Manager
 - Register New PHP Version
