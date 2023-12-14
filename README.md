@@ -99,14 +99,14 @@ The program should look like this.
 <img src="https://imgur.com/rgdZwmM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-8.) We will now want to register PHP from within IIS.
+1.) We will now want to register PHP from within IIS.
   
 - Click on PHP Manager
 - Register New PHP Version
 - You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
 - Restart the IIS Server
 <p>
-9.) Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
+2.) Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
 <p>
 Reload IIS again
 <p>
