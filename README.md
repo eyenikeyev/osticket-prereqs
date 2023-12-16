@@ -122,8 +122,9 @@ To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double 
 3.) php_opcache.dll
 <p>
 Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder.
-Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php We are going to rename the ost-sampleconfig.php to ost-config.php. Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance.
-We will select Remove all inherited permissions from this object.
+Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+<p>
+We are going to rename the ost-sampleconfig.php to ost-config.php. Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
 <p>
 Now we will add new permissions.
 <p>
