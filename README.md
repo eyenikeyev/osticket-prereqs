@@ -59,7 +59,6 @@ Make sure that all Common HTTP features are checked. To make sure IIS is install
 <h3>Installing Files for osTicket</h3>
 
 <p>
-  <ul>
 
 1.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Go through the install wizard and complete the install.
 
@@ -115,7 +114,7 @@ Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -
 <p>
 Reload IIS again
 <p>
-10.) On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”
+On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”
 <p>
 Some extensions are not enabled on the osTicket browser
 <p>
@@ -131,7 +130,7 @@ We will want to enable three extensions from here
   
 3.) php_opcache.dll
 <p>
-15.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder.
+Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder.
 Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
   
 We are going to rename the ost-sampleconfig.php to ost-config.php
