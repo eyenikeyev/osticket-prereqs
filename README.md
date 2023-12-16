@@ -88,13 +88,13 @@ The program should look like this.
 <p>
 7.) We will now want to register PHP from within IIS.
 <p>
-1.) Click on PHP Manager
+I.) Click on PHP Manager
 <p>
-2.) Register New PHP Version
+II.) Register New PHP Version
 <p>
-3.) You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
+III.) You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
 <p>
-4.) Restart the IIS Server
+IV.) Restart the IIS Server
 </p>
 <p>
 </ul>
