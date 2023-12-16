@@ -126,7 +126,7 @@ Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost
 <p>
 We are going to rename the ost-sampleconfig.php to ost-config.php. Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
 <p>
-Now we will add new permissions. 1.) Click Add, 2.)Select a Principal, 3.) Type "Everyone in the box". Make sure Full Control and the other boxes are checked. Click Apply and Ok
+Now we will add new permissions. 1) Click Add, 2) Select a Principal, 3) Type "Everyone in the box". Make sure Full Control and the other boxes are checked. Click Apply and Ok
 <p>
 Once that is done we will continue to setup osTicket in the browser. Click Continue on the osTicket browser page.
 Fill out the page as required except the Database Settings at the bottom of the page. We will get to that. 
@@ -137,23 +137,18 @@ We will want to download and install HeidiSQL from the Installation Files.
 </p>
 <p>
 When the program is open we will create a new session in it.
-  
 <p>
 <img src="https://imgur.com/g5M1i61.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-  
-We want to make sure the username is root and the password is Password1.
-  
+<p>  
+We want to make sure the username is root and the password is Password1.  
 <p>
 <img src="https://imgur.com/LEAZNOc.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-  
+<p>  
 Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
-  
-We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
-  
+<p></p>
+We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.  
 <p>
 <img src="https://imgur.com/0rG1AJm.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
@@ -172,24 +167,19 @@ The last step is to do some clean up. We will want to delete the setup folder in
 <p>
 - Delete: C:\inetpub\wwwroot\osTicket\setup
 Only delete the setup folder and nothing else.
-  
-We then will want to set the permissions back to "Read" only in the ost-config.php file.
-  
+<p></p>  
+We then will want to set the permissions back to "Read" only in the ost-config.php file.  
 <p>
 <img src="https://imgur.com/wFr0pkK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-  
+<p>  
 <p>
 <img src="https://imgur.com/jsJOPyn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-  
-The last step after that is to login to osTicket on the browser.
-  
+<p>  
+The last step after that is to login to osTicket on the browser.  
 <p>
 <img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-  
+<p>  
 This is the conclusion of the setup of osTicket
