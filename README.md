@@ -125,56 +125,59 @@ To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double 
 <p>
 We will want to enable three extensions from here
 
-  1.) php_imap.dll
+1.) php_imap.dll
  
-  2.) php_intl.dll
+2.) php_intl.dll
   
-  3.) php_opcache.dll
+3.) php_opcache.dll
 <p>
 15.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder.
-  Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
   
-  We are going to rename the ost-sampleconfig.php to ost-config.php
+We are going to rename the ost-sampleconfig.php to ost-config.php
   
-  Now that we have renamed the files, right click on the file and go to properties.
-  From there click security, click on advance, and disable the inheritance.
-  We will select Remove all inherited permissions from this object.
+Now that we have renamed the files, right click on the file and go to properties.
+From there click security, click on advance, and disable the inheritance.
+We will select Remove all inherited permissions from this object.
   
-  Now we will add new permissions.
-  
-  - Click Add
-  - Select a Principal
-  - Type "Everyone in the box"
-  - Make sure Full Control and the other boxes are checked
-  - Click Apply and Ok
+Now we will add new permissions.
+<p>
+- Click Add
+<p>
+- Select a Principal
+<p>
+- Type "Everyone in the box"
+<p>
+Make sure Full Control and the other boxes are checked
+<p>
+Click Apply and Ok
 <p>
 Once that is done we will continue to setup osTicket in the browser. Click Continue on the osTicket browser page.
-  Fill out the page as required except the Database Settings at the bottom of the page. We will get to that. 
+Fill out the page as required except the Database Settings at the bottom of the page. We will get to that. 
   
-  We will want to download and install HeidiSQL from the Installation Files. 
+We will want to download and install HeidiSQL from the Installation Files. 
   
 <p>
 <img src="https://imgur.com/i7a4gWC.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  
-  When the program is open we will create a new session in it.
+When the program is open we will create a new session in it.
   
 <p>
 <img src="https://imgur.com/g5M1i61.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-  We want to make sure the username is root and the password is Password1.
+We want to make sure the username is root and the password is Password1.
   
 <p>
 <img src="https://imgur.com/LEAZNOc.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-  Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
+Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
   
-  We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
+We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
   
 <p>
 <img src="https://imgur.com/0rG1AJm.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -190,11 +193,12 @@ Once that is done we will continue to setup osTicket in the browser. Click Conti
 
 <p>
   <ul>
-  The last step is to do some clean up. We will want to delete the setup folder in our system. 
-  -Delete: C:\inetpub\wwwroot\osTicket\setup
-  Only delete the setup folder and nothing else.
+The last step is to do some clean up. We will want to delete the setup folder in our system.
+<p>
+- Delete: C:\inetpub\wwwroot\osTicket\setup
+Only delete the setup folder and nothing else.
   
-  We then will want to set the permissions back to "Read" only in the ost-config.php file.
+We then will want to set the permissions back to "Read" only in the ost-config.php file.
   
 <p>
 <img src="https://imgur.com/wFr0pkK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -206,11 +210,11 @@ Once that is done we will continue to setup osTicket in the browser. Click Conti
 </p>
 <p>
   
-  The last step after that is to login to osTicket on the browser.
+The last step after that is to login to osTicket on the browser.
   
 <p>
 <img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-  Congrats! You have now successfully installed and setup osTicket!
+This is the conclusion of the setup of osTicket
