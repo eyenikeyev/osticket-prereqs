@@ -106,14 +106,14 @@ IV.) Restart the IIS Server
 
 <p>
   <ul>
-Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket". Reload IIS again. On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”. Some extensions are not enabled on the osTicket browser
+Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket". Reload IIS again.
+<p>
+On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”. Some extensions are not enabled on the osTicket browser
 <p>
 <img src="https://imgur.com/eJIsGTn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
-To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double click PHP manager -Click "Enable or disable an extension"
+To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double click PHP manager -Click "Enable or disable an extension". We will want to enable three extensions from here
 <p>
-We will want to enable three extensions from here
-
 1.) php_imap.dll
  
 2.) php_intl.dll
