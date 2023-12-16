@@ -78,10 +78,9 @@ Attention: If this appears, choose to “Keep” the file:
 <p>
 5.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
 
-6.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
-
-Make the new root password: Password1. Execute the process on the next page. Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator.
+6.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration -> Make the new root password: Password1. Execute the process on the next page. 
 <p>
+Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator.
 The program should look like this.  
 <p>
 <img src="https://imgur.com/rgdZwmM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
