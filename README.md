@@ -126,23 +126,12 @@ Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost
 <p>
 We are going to rename the ost-sampleconfig.php to ost-config.php. Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
 <p>
-Now we will add new permissions.
-<p>
-- Click Add
-<p>
-- Select a Principal
-<p>
-- Type "Everyone in the box"
-<p>
-Make sure Full Control and the other boxes are checked
-<p>
-Click Apply and Ok
+Now we will add new permissions. 1.) Click Add, 2.)Select a Principal, 3.) Type "Everyone in the box". Make sure Full Control and the other boxes are checked. Click Apply and Ok
 <p>
 Once that is done we will continue to setup osTicket in the browser. Click Continue on the osTicket browser page.
 Fill out the page as required except the Database Settings at the bottom of the page. We will get to that. 
-  
+<p>  
 We will want to download and install HeidiSQL from the Installation Files. 
-  
 <p>
 <img src="https://imgur.com/i7a4gWC.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
