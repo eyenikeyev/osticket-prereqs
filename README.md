@@ -163,7 +163,7 @@ We will now create a new database within HeidiSQL. In Heidi right click on the l
 <h3>Clean Up</h3>
 
 <p>
-  <ul>
+
 The last step is to do some clean up. We will want to delete the setup folder in our system.
 <p>
 - Delete: C:\inetpub\wwwroot\osTicket\setup
