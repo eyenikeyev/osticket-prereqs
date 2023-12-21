@@ -72,11 +72,11 @@ Make sure that all Common HTTP features are checked. To make sure IIS is install
 </p>
 Attention: If this appears, choose to “Keep” the file:
 </p>
-<img src="https://imgur.com/xZv1Yhw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/xZv1Yhw.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-<img src="https://imgur.com/YwBhqo0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/YwBhqo0.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 <p>
 5.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
 
