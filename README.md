@@ -85,7 +85,7 @@ Attention: If this appears, choose to “Keep” the file:
 Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator.
 The program should look like this.  
 <p>
-<img src="https://imgur.com/rgdZwmM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/rgdZwmM.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 7.) We will now want to register PHP from within IIS.
