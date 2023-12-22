@@ -29,12 +29,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <li> Heidi SQL </li>
 <li> osTicket v1.15.8 </li>
 <li>Link to Downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 </li>
-  
-</p>
 
 
 <p>
 <h3>Installation Steps </h3>
+
+<p>
 
 
 1.) The first thing you are going to want to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. Note, you will want to create a virtual machine with at least 2 vcpus and 16 gbs of memory.
