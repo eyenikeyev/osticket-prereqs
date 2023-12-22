@@ -36,6 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <h3>Installation Steps </h3>
+<ol>
 
 1.) The first thing you are going to want to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. Note, you will want to create a virtual machine with at least 2 vcpus and 16 gbs of memory.
 
@@ -63,7 +64,7 @@ Make sure that all Common HTTP features are checked. To make sure IIS is install
 </p>
 
 <h3>Installing Files for osTicket</h3>
-
+<ol>
 <p>
 
 1.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Go through the install wizard and complete the install.
@@ -109,7 +110,7 @@ IV.) Restart the IIS Server
 </p>
 
 <h3>Installing osTicket</h3>
-
+<ol>
 
 <p>
 Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket". Reload IIS again.
@@ -165,7 +166,7 @@ We will now create a new database within HeidiSQL. In Heidi right click on the l
 </p>
 
 <h3>Clean Up</h3>
-
+<ol>
 <p>
 
 The last step is to do some clean up. We will want to delete the setup folder in our system.
