@@ -30,11 +30,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <li> osTicket v1.15.8 </li>
 <li>Link to Downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 </li>
   
- </ul>
+</ul>
 </p>
 
 
-<br />
+</p>
 <h3>Installation Steps </h3>
 
 1.) The first thing you are going to want to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. Note, you will want to create a virtual machine with at least 2 vcpus and 16 gbs of memory.
@@ -56,11 +56,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 Make sure that all Common HTTP features are checked. To make sure IIS is installed / enabled go to a browser of choice and search for 127.0.0.1. If it displays the IIS page then you did it correctly.
   
- </ul>
+</ul>
 </p>
 
 
-<br />
+</p>
 
 <h3>Installing Files for osTicket</h3>
 
@@ -106,7 +106,7 @@ IV.) Restart the IIS Server
 </ul>
 </p>
 
-<br />
+</p>
 
 <h3>Installing osTicket</h3>
 
@@ -159,10 +159,10 @@ We will now create a new database within HeidiSQL. In Heidi right click on the l
 </p>
 <p>
   
-  </ul>
+</ul>
 </p>
 
-<br />
+</p>
 
 <h3>Clean Up</h3>
 
