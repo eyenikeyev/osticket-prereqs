@@ -29,6 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <li> Heidi SQL </li>
 <li> osTicket v1.15.8 </li>
 <li>Link to Downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 </li>
+
 </ol>
 </p>
 <p>
