@@ -59,10 +59,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Make sure that all Common HTTP features are checked. To make sure IIS is installed / enabled go to a browser of choice and search for 127.0.0.1. If it displays the IIS page then you did it correctly.
   
 
-</p>
 
+</ul>
 
-</p>
+</br>
 
 <h3>Installing Files for osTicket</h3>
 <p>
@@ -104,9 +104,9 @@ III.) You will want to provide a path to the php executable file (php-cgi.exe)).
 IV.) Restart the IIS Server
 </p>
 <p>
-</p>
+</ul>
 
-</p>
+</br>
 
 <h3>Installing osTicket</h3>
 
@@ -158,9 +158,9 @@ We will now create a new database within HeidiSQL. In Heidi right click on the l
 </p>
 <p>
   
-</p>
+</ul>
 
-</p>
+</br>
 
 <h3>Clean Up</h3>
 
