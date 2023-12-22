@@ -111,7 +111,7 @@ IV.) Restart the IIS Server
 <h3>Installing osTicket</h3>
 
 <p>
-Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket". Reload IIS again.
+Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder. Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket". Reload IIS again.
 <p>
 On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”. Some extensions are not enabled on the osTicket browser
 <p>
