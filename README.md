@@ -180,6 +180,7 @@ Delete: C:\inetpub\wwwroot\osTicket\setup. Only delete the setup folder and noth
 The last step after that is to login to osTicket on the browser.  
 <p>
 <img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>  
+<p>
+<img src="https://i.imgur.com/QIZWPlD.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<p>
 This is the conclusion of the setup of the lab
