@@ -30,11 +30,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <li> osTicket v1.15.8 </li>
 <li>Link to Downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 </li>
   
+</p>
 
 
 
-
-
+<p>
 <h3>Installation Steps </h3>
 
 
@@ -181,4 +181,4 @@ The last step after that is to login to osTicket on the browser.
 <img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
-This is the conclusion of the setup of this lab
+This is the conclusion of the setup of the lab
