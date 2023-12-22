@@ -99,7 +99,7 @@ I.) Click on PHP Manager
 <p>
 II.) Register New PHP Version
 <p>
-III.) You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive, then PHP, and click on php-cgi file.
+III.) You will want to provide a path to the php executable file (php-cgi.exe). Go to C Drive, then PHP, and click on php-cgi file.
 <p>
 IV.) Restart the IIS Server
 </p>
