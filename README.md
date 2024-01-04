@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </ul>
 
-</br>
+<p>
 
 <h3>Installation Steps </h3>
 
