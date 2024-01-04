@@ -45,7 +45,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 3.) Copy and paste the simple list and installation files from the lab into the virtual machine. Once you have connected you will want to go to your control panel, from the control panel open up programs. Select, Turn Windows features on and off.
 
-4.) You will want to install / enable IIS in Windows with CGI and Common HTTP Features
+4.) You will want to install/enable IIS in Windows with CGI and Common HTTP Features
 
 </p>
 <br />
