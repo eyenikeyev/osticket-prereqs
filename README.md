@@ -51,11 +51,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/1DzWDl2.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1DzWDl2.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
-<img src="https://i.imgur.com/T3Qk4M2.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/T3Qk4M2.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
-<img src="https://i.imgur.com/FJToamx.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FJToamx.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
 Make sure that all Common HTTP features are checked. To make sure IIS is installed / enabled go to a browser of choice and search for 127.0.0.1. If it displays the IIS page then you did it correctly.
   
@@ -78,11 +78,11 @@ Make sure that all Common HTTP features are checked. To make sure IIS is install
 </p>
 Attention: If this appears, choose to “Keep” the file:
 </p>
-<img src="https://imgur.com/xZv1Yhw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/xZv1Yhw.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-<img src="https://imgur.com/YwBhqo0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/YwBhqo0.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
 <p>
 5.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
 
@@ -91,7 +91,7 @@ Attention: If this appears, choose to “Keep” the file:
 Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator.
 The program should look like this.  
 <p>
-<img src="https://imgur.com/rgdZwmM.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/rgdZwmM.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 7.) We will now want to register PHP from within IIS.
@@ -116,7 +116,7 @@ Install osTicket v1.15.8, Download osTicket from the Installation Files Folder. 
 <p>
 On IIS go to sites > Default > osTicket On the right, click “Browse *:80”. Some extensions are not enabled on the osTicket browser
 <p>
-<img src="https://imgur.com/eJIsGTn.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/eJIsGTn.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 <p>
 To enable the extensions: Go back to IIS, sites > Default > osTicket - Double click PHP manager. Click "Enable or disable an extension". We will want to enable three extensions from here
 <p>
@@ -138,24 +138,24 @@ Fill out the page as required except the Database Settings at the bottom of the 
 <p>  
 We will want to download and install HeidiSQL from the Installation Files. 
 <p>
-<img src="https://imgur.com/i7a4gWC.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/i7a4gWC.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 When the program is open we will create a new session in it.
 <p>
-<img src="https://imgur.com/g5M1i61.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/g5M1i61.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
 We want to make sure the username is root and the password is Password1.  
 <p>
-<img src="https://imgur.com/LEAZNOc.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/LEAZNOc.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
 Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
 <p></p>
 We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.  
 <p>
-<img src="https://imgur.com/0rG1AJm.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/0rG1AJm.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
@@ -171,17 +171,17 @@ The last step is to do some clean up. We will want to delete the setup folder in
 <p>
 Delete: C:\inetpub\wwwroot\osTicket\setup. Only delete the setup folder and nothing else. We then will want to set the permissions back to "Read" only in the ost-config.php file.  
 <p>
-<img src="https://imgur.com/wFr0pkK.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/wFr0pkK.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
 <p>
-<img src="https://imgur.com/jsJOPyn.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/jsJOPyn.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
 The last step after that is to login to osTicket on the browser.  
 <p>
-<img src="https://imgur.com/uHVdDsx.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/uHVdDsx.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 <p>
-<img src="https://i.imgur.com/QIZWPlD.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QIZWPlD.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 This is the conclusion of the setup of the lab
